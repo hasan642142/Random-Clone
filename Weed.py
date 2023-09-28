@@ -969,9 +969,7 @@ def fcrack2(uid,pwx,tl):
         sys.stdout.flush()
     except:
         pass
-        
-        
-  except:
+    except:
     sys.exit()
 approval()
 
