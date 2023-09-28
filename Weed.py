@@ -920,7 +920,7 @@ def fcrack2(uid,pwx,tl):
             #oo=random.choice(sss)
             free_fb = session.get('https://free.facebook.com').text
             log_data = {
-                "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
+            "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
             "m_ts":re.search('name="m_ts" value="(.*?)"', str(free_fb)).group(1),
             "li":re.search('name="li" value="(.*?)"', str(free_fb)).group(1),
@@ -969,11 +969,4 @@ def fcrack2(uid,pwx,tl):
         sys.stdout.flush()
     except:
         pass
-    except:
-    sys.exit()
-approval()
-
-#-----------------------[ SYSTEM-CONTROL ]--------------------#
-#if __name__=='__main__':
-
 main()
